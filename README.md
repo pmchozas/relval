@@ -1,5 +1,9 @@
 This repository contains experiments on the validation of data retrieved from Wikidata. Specifically, the validation of the data represented by the skos:altLabel property, which is supposed to describe synonym and variants of a concept. The experiment performs a comparison of the  tokens of the concept with synonyms retrieved from ConceptNet, considered a more trustable resource, with the aim of checking whether it is indeed a synonymy relation or of other kind (hierarchical).
 
+<p align="center">
+<img src="https://github.com/pmchozas/relval/blob/master/static/relval.png" width="80%" />
+</p>
+
 ## Execution process
 
 Your desired execution flow can be described in the configuration file, i.e. `configuration.json` as follows:
