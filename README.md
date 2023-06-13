@@ -1,7 +1,4 @@
-This repository contains the source code of the paper "From a Plain Term List to a Multilingual Linked Terminology: Automatic Population and Relation Extraction". As the title suggests, given a list of terms, this program creates a terminological resource by retrieving data from [Wikidata](https://www.wikidata.org/), filtering terms based on concepts and classifying alternative labels using [ConceptNet](http://conceptnet.io/).
-
-
-As the current program is under development, no error handling mechanism is present for the moment. Further documentation will be provided upon the publishing of the corresponding paper. 
+This repository contains experiments on the validation of data retrieved from Wikidata. Specifically, the validation of the data represented by the skos:altLabel property, which is supposed to describe synonym and variants of a concept. The experiment performs a comparison of the  tokens of the concept with synonyms retrieved from ConceptNet, considered a more trustable resource, with the aim of checking whether it is indeed a synonymy relation or of other kind (hierarchical).
 
 ## Execution process
 
@@ -72,3 +69,7 @@ All valids: 15
 === Saving evaluation results.
 ============ Finished.
 ```
+
+## Citation
+Martín-Chozas, P., Ahmadi, S., and Montiel-Ponsoda, E. (2020). Defying Wikidata: Validation of Terminological Relations in the Web of Data. In Proceedings of the 12th Language Resources and Evaluation Conference (LREC), 5654-5659.
+
